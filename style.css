@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  /* background-color: rgb(255, 255, 255); */
+  background-image: url(https://images.pexels.com/photos/749114/pexels-photo-749114.jpeg?cs=srgb&dl=pexels-min-an-749114.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.nav-h1 {
+  /* background-color: #008000; */
+  padding: 20px;
+  color: white;
+  font-size: 5em;
+}
+.main-section {
+  background-color: rgba(209, 216, 208, 0.968);
+  border: 1px solid #999;
+  height: auto;
+  width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  -webkit-box-shadow: -5px 2px 81px 1px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: -5px 2px 81px 1px rgba(0, 0, 0, 0.81);
+  box-shadow: -5px 2px 81px 1px rgba(0, 0, 0, 0.81);
+}
+.input {
+  border: 1px solid #999;
+  padding: 5px;
+  /* border-radius: 5px; */
+  height: 2rem;
+  margin: 5px;
+}
+.btn {
+  padding: 7px 15px;
+  background-color: rgb(80, 79, 79);
+  border: 1px solid #999;
+  /* border-radius: 5px; */
+  color: aliceblue;
+  /* font-size: 1.3rem; */
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  display: block;
+  border: 1px solid #999;
+  /* background-color: blue; */
+  padding: 10px;
+  margin: 3px;
+  /* opacity: 1; */
+}
+.naviUl {
+  display: inline;
+  color: black;
+}
